@@ -3,15 +3,15 @@ import React from "react";
 type StepperProps = {
   currentStep: number;
   totalStep: number;
-}
+};
 
 const Stepper = ({ currentStep, totalStep }: StepperProps) => {
   const steps = Array.from({ length: totalStep }, (_, index) => index + 1);
 
   return (
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center">
       {steps.map((step, index) => (
-        <div key={index} className="flex items-center">
+        <React.Fragment key={index}>
           <div
             className={`w-10 h-10 flex items-center justify-center rounded-full ${
               step <= currentStep
@@ -34,7 +34,7 @@ const Stepper = ({ currentStep, totalStep }: StepperProps) => {
               }`}
             ></div>
           )}
-        </div>
+        </React.Fragment>
       ))}
     </div>
   );

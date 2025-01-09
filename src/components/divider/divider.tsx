@@ -10,7 +10,7 @@ type DividerProps = {
 const Divider = ({ text, width = "56px", className = "", textClassName = "" } : DividerProps) => {
 
     const _className = (() => {
-        let classNames = `flex items-center justify-center w-[${width}] `;
+        let classNames = `flex items-center justify-center ${width} `;
         classNames += className;
         return classNames;
     });

@@ -25,7 +25,7 @@ const Template: StoryFn<typeof Divider> = (args) => <Divider {...args} />;
 export const Default: StoryFn = Template.bind({});
 Default.args = {
   text: "",
-  width: "w-full",
+  width: "w-1/2",
 };
 
 export const WithText: StoryFn = Template.bind({});

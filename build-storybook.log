@@ -1,0 +1,40 @@
+yarn run v1.22.22
+$ storybook build --output-dir=/var/folders/gg/8rb_96vx50dcrr6sny787mjh0000gn/T/chromatic--30849-EVwFytEnencq
+[1m@storybook/core v8.4.7
+[22m
+info => Cleaning outputDir: [36m../../../../var/folders/gg/8rb_96vx50dcrr6sny787mjh0000gn/T/chromatic--30849-EVwFytEnencq[39m
+info => Loading presets
+info => Building manager..
+info => Manager built ([38;2;181;126;229m88 ms[39m)
+info => Building preview..
+info => Loading Webpack configuration from `node_modules/react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info Addon-docs: using MDX3
+info => Using default Webpack5 setup
+info => Copying static files: [36mpublic[39m at [36m../../../../var/folders/gg/8rb_96vx50dcrr6sny787mjh0000gn/T/chromatic--30849-EVwFytEnencq[39m
+WARN [eslint] 
+WARN src/components/button/button.stories.tsx
+WARN   Line 1:8:  'React' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/stepper/stepper.stories.tsx
+WARN   Line 1:8:  'React' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   7a58d2cb9a6358f85e9b.png (456 KiB)
+WARN   844.cbc8c5dd.iframe.bundle.js (1000 KiB)
+WARN   735.72e6d320.iframe.bundle.js (357 KiB)
+WARN   474.42a14bbd.iframe.bundle.js (1.28 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (1.3 MiB)
+WARN       runtime~main.4b3b5731.iframe.bundle.js
+WARN       474.42a14bbd.iframe.bundle.js
+WARN       main.8d0a0eb0.iframe.bundle.js
+WARN 
+info => Preview built ([38;2;181;126;229m5.71 s[39m)
+info => Output directory: /var/folders/gg/8rb_96vx50dcrr6sny787mjh0000gn/T/chromatic--30849-EVwFytEnencq
+Done in 7.65s.
